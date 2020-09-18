@@ -74,6 +74,26 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOETDQKM
 
+[ProjectVariant1]
+UniqueID=802B9152-FFC0-4E2E-9A69-7177CA368B7E
+Description=v0.0
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[Parameter1]
+Name=Project
+Value=Smart PPE
+
+[Parameter2]
+Name=EmailAddress
+Value=alexander.curtiss@u.northwestern.edu
+
+[Parameter3]
+Name=Author
+Value=Alexander Curtiss
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
