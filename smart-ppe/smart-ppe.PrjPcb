@@ -83,16 +83,16 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
+Name=Author
+Value=Alexander Curtiss
+
+[Parameter2]
 Name=Project
 Value=Smart PPE
 
-[Parameter2]
+[Parameter3]
 Name=EmailAddress
 Value=alexander.curtiss@u.northwestern.edu
-
-[Parameter3]
-Name=Author
-Value=Alexander Curtiss
 
 [Configuration1]
 Name=Sources
