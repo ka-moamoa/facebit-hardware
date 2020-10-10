@@ -47,7 +47,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -74,12 +74,136 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOETDQKM
 
+[Document3]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XTQRDQPG
+
+[Document4]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WONHOWZI
+
+[Document5]
+DocumentPath=Sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SJHLXSVN
+
+[Document6]
+DocumentPath=Memory.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YFOAFSYU
+
+[Document7]
+DocumentPath=Memory.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=Sensors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=MCU.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=802B9152-FFC0-4E2E-9A69-7177CA368B7E
 Description=v0.0
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=5
+Variation1=Designator=C?|UniqueId=\ODFSSOZB\BYYPLGXF|Kind=1|AlternatePart= 
+Variation2=Designator=C?|UniqueId=\ODFSSOZB\LIWNCLOY|Kind=1|AlternatePart= 
+Variation3=Designator=C?|UniqueId=\ODFSSOZB\ZAFJXQQF|Kind=0|AlternatePart= 
+Variation4=Designator=C4|UniqueId=\ODFSSOZB\AWMSVMUX|Kind=1|AlternatePart= 
+Variation5=Designator=R?|UniqueId=\DFHYKTFF\YXMXUGKM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -87,12 +211,12 @@ Name=Author
 Value=Alexander Curtiss
 
 [Parameter2]
-Name=Project
-Value=Smart PPE
-
-[Parameter3]
 Name=EmailAddress
 Value=alexander.curtiss@u.northwestern.edu
+
+[Parameter3]
+Name=Project
+Value=Smart PPE
 
 [Configuration1]
 Name=Sources
@@ -213,7 +337,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=Brother HL-L2370DW series 2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1071,10 +1195,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name Only
+ComponentLibraryIdentifier0=Ka Moamoa
+ComponentDesignItemID0=CMP-003-0015-1
+ComponentSymbolReference0=BMD-350
+ComponentUpdate0=0
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name Only
+ComponentLibraryIdentifier1=Ka Moamoa
+ComponentDesignItemID1=CMP-005-0000-3
+ComponentSymbolReference1=BQ25570RGRT
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1088,6 +1224,66 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Body Size
+ParameterUpdate0=1
+ParameterName1=Case/Package
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=Contact Plating
+ParameterUpdate4=1
+ParameterName5=Description
+ParameterUpdate5=1
+ParameterName6=Design Item ID
+ParameterUpdate6=1
+ParameterName7=Height
+ParameterUpdate7=1
+ParameterName8=Internal Antenna
+ParameterUpdate8=1
+ParameterName9=Lead Free
+ParameterUpdate9=1
+ParameterName10=Library Reference
+ParameterUpdate10=1
+ParameterName11=Manufacturer
+ParameterUpdate11=1
+ParameterName12=Manufacturer P/N
+ParameterUpdate12=1
+ParameterName13=Max Operating Temperature
+ParameterUpdate13=1
+ParameterName14=Min Operating Temperature
+ParameterUpdate14=1
+ParameterName15=Mount
+ParameterUpdate15=1
+ParameterName16=Number of Pins
+ParameterUpdate16=1
+ParameterName17=Operating Supply Current
+ParameterUpdate17=1
+ParameterName18=Operating Supply Voltage
+ParameterUpdate18=1
+ParameterName19=Output Current
+ParameterUpdate19=1
+ParameterName20=Package Quantity
+ParameterUpdate20=1
+ParameterName21=Packaging
+ParameterUpdate21=1
+ParameterName22=Part Number
+ParameterUpdate22=1
+ParameterName23=Protocol
+ParameterUpdate23=1
+ParameterName24=Source
+ParameterUpdate24=1
+ParameterName25=Switching Frequency
+ParameterUpdate25=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=BMD_LGA47S_865X640X150_CHIP
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=BQ25570RGRR-Footprint-1
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
