@@ -193,30 +193,44 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document10]
+DocumentPath=smart-ppe.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=802B9152-FFC0-4E2E-9A69-7177CA368B7E
 Description=v0.0
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=C?|UniqueId=\ODFSSOZB\BYYPLGXF|Kind=1|AlternatePart= 
-Variation2=Designator=C?|UniqueId=\ODFSSOZB\LIWNCLOY|Kind=1|AlternatePart= 
-Variation3=Designator=C?|UniqueId=\ODFSSOZB\ZAFJXQQF|Kind=0|AlternatePart= 
-Variation4=Designator=C4|UniqueId=\ODFSSOZB\AWMSVMUX|Kind=1|AlternatePart= 
-Variation5=Designator=R?|UniqueId=\DFHYKTFF\YXMXUGKM|Kind=1|AlternatePart= 
+VariationCount=2
+Variation1=Designator=C1|UniqueId=\ODFSSOZB\BYYPLGXF|Kind=1|AlternatePart= 
+Variation2=Designator=C4|UniqueId=\ODFSSOZB\QIOYYIJN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=Author
-Value=Alexander Curtiss
+Name=Project
+Value=Smart PPE
 
 [Parameter2]
 Name=EmailAddress
 Value=alexander.curtiss@u.northwestern.edu
 
 [Parameter3]
-Name=Project
-Value=Smart PPE
+Name=Author
+Value=Alexander Curtiss
 
 [Configuration1]
 Name=Sources
@@ -227,6 +241,45 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=v0.0
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=-1
+SCH_ExpandPorts=-1
+SCH_ExpandSheetNumber=-1
+SCH_ExpandDocumentNumber=-1
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1040,11 +1093,11 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1061,7 +1114,7 @@ Type27=2
 Type28=1
 Type29=1
 Type30=1
-Type31=1
+Type31=3
 Type32=2
 Type33=0
 Type34=2
@@ -1073,7 +1126,7 @@ Type39=2
 Type40=2
 Type41=0
 Type42=2
-Type43=1
+Type43=3
 Type44=0
 Type45=0
 Type46=0
@@ -1155,23 +1208,23 @@ AlternateItemFail=3
 Type122=2
 
 [ERC Connection Matrix]
-L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
+L1=NNNNNNNNNNNNNNNNN
+L2=NNNNNNNNNNNNNNNNN
+L3=NNEENEEEENEWNEEWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
+L8=NNEENEENEEENNEENN
+L9=NNEENEEEENEWNEEWW
+L10=NNNNNNNENNEWNNEWN
 L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
-L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
-L16=WWWWNWWNWWWNWWWNW
-L17=WNNNNNNNWNNNWWWWN
+L12=NNWWNWWNWWWNNNNNN
+L13=NNNNNNNNNNNNNNNWW
+L14=NNEENEEEENENNEEWW
+L15=NNENNNNEEENNNENWW
+L16=NNWWNWWNWWWNWWWNN
+L17=NNNNNNNNWNNNWWWNN
 
 [Annotate]
 SortOrder=3
