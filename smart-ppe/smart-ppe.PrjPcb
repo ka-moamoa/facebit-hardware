@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for smart-ppe
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=826F3E7E-115F-4F95-872B-27FD38FFBD4A
 VaultGUID=A8C5D638-4BD8-4CC8-B307-44EA0E3E8218
@@ -215,17 +215,10 @@ UniqueID=802B9152-FFC0-4E2E-9A69-7177CA368B7E
 Description=v0.0
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=BT1|UniqueId=\ODFSSOZB\VSKGGWAX|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant2]
-UniqueID=71E4140F-8386-4450-BC42-3737FC1DA80F
-Description=v_c1220
-AllowFabrication=0
-ParameterCount=0
-VariationCount=1
-Variation1=Designator=C11|UniqueId=\ODFSSOZB\QXXBXOIN|Kind=1|AlternatePart= 
+VariationCount=3
+Variation1=Designator=BT1|UniqueId=\ODFSSOZB\MFEGZQWW|Kind=0|AlternatePart= 
+Variation2=Designator=R18|UniqueId=\ODFSSOZB\EOIAKDRO|Kind=1|AlternatePart= 
+Variation3=Designator=R9|UniqueId=\DFHYKTFF\LQHGEYQX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -287,7 +280,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for smart-ppe
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -578,6 +571,22 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=
+Configuration1_Name5=VisibleOrder
+Configuration1_Item5=Line #=52|Comment=52|Description=78|Designator=76|Revision ID=76|Quantity=64|Fitted=81|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration1_Name6=VisibleOrder_Base
+Configuration1_Item6=Line #=52|Comment=52|Description=78|Designator=76|Revision ID=76|Quantity=64|Fitted=81|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration1_Name7=VisibleOrder_Consolidated
+Configuration1_Item7=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Quantity=100|Fitted=100|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115|Quantity@v0.0=100|Price@v0.0=100|Quantity@v1.0=100|Price@v1.0=100
+Configuration1_Name8=VisibleOrder_Flat
+Configuration1_Item8=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Fitted=100|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1261,17 +1270,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name Only
-ComponentLibraryIdentifier0=Ka Moamoa
-ComponentDesignItemID0=CMP-003-0015-1
-ComponentSymbolReference0=BMD-350
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=Altium Content Vault
+ComponentDesignItemID0=CMP-2100-03591-1
+ComponentSymbolReference0=CAP-NP-2
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name Only
-ComponentLibraryIdentifier1=Ka Moamoa
-ComponentDesignItemID1=CMP-005-0000-3
-ComponentSymbolReference1=BQ25570RGRT
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1285,66 +1288,89 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Body Size
+ParameterName0=Capacitance
 ParameterUpdate0=1
-ParameterName1=Case/Package
+ParameterName1=Case Code (Imperial)
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Case Code (Metric)
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=Case/Package
 ParameterUpdate3=1
-ParameterName4=Contact Plating
+ParameterName4=Comment
 ParameterUpdate4=1
-ParameterName5=Description
+ParameterName5=Component Kind
 ParameterUpdate5=1
-ParameterName6=Design Item ID
+ParameterName6=Composition
 ParameterUpdate6=1
-ParameterName7=Height
+ParameterName7=Datasheet URL
 ParameterUpdate7=1
-ParameterName8=Internal Antenna
+ParameterName8=Datasheet Version
 ParameterUpdate8=1
-ParameterName9=Lead Free
+ParameterName9=Depth
 ParameterUpdate9=1
-ParameterName10=Library Reference
+ParameterName10=Description
 ParameterUpdate10=1
-ParameterName11=Manufacturer
+ParameterName11=Dielectric
 ParameterUpdate11=1
-ParameterName12=Manufacturer P/N
+ParameterName12=Dielectric Material
 ParameterUpdate12=1
-ParameterName13=Max Operating Temperature
+ParameterName13=Height
 ParameterUpdate13=1
-ParameterName14=Min Operating Temperature
+ParameterName14=Lead Free
 ParameterUpdate14=1
-ParameterName15=Mount
+ParameterName15=Length
 ParameterUpdate15=1
-ParameterName16=Number of Pins
+ParameterName16=Library Reference
 ParameterUpdate16=1
-ParameterName17=Operating Supply Current
+ParameterName17=Manufacturer
 ParameterUpdate17=1
-ParameterName18=Operating Supply Voltage
+ParameterName18=Manufacturer URL
 ParameterUpdate18=1
-ParameterName19=Output Current
+ParameterName19=Max Operating Temperature
 ParameterUpdate19=1
-ParameterName20=Package Quantity
+ParameterName20=Min Operating Temperature
 ParameterUpdate20=1
-ParameterName21=Packaging
+ParameterName21=Mount
 ParameterUpdate21=1
-ParameterName22=Part Number
+ParameterName22=Number of Pins
 ParameterUpdate22=1
-ParameterName23=Protocol
+ParameterName23=Package Description
 ParameterUpdate23=1
-ParameterName24=Source
+ParameterName24=Package Quantity
 ParameterUpdate24=1
-ParameterName25=Switching Frequency
+ParameterName25=Package Reference
 ParameterUpdate25=1
+ParameterName26=Packaging
+ParameterUpdate26=1
+ParameterName27=Radiation Hardening
+ParameterUpdate27=1
+ParameterName28=REACH SVHC
+ParameterUpdate28=1
+ParameterName29=RoHSCompliant
+ParameterUpdate29=1
+ParameterName30=Termination
+ParameterUpdate30=1
+ParameterName31=Thickness
+ParameterUpdate31=1
+ParameterName32=Tolerance
+ParameterUpdate32=1
+ParameterName33=Voltage Rating
+ParameterUpdate33=1
+ParameterName34=Voltage Rating (DC)
+ParameterUpdate34=1
+ParameterName35=Width
+ParameterUpdate35=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=BMD_LGA47S_865X640X150_CHIP
+ModelName0=CAPC1005X55X25LL5T10
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=BQ25570RGRR-Footprint-1
+ModelName1=CAPC1005X55X25ML5T10
 ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAPC1005X55X25NL5T10
+ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
