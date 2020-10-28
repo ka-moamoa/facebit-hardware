@@ -221,6 +221,10 @@ Variation2=Designator=R18|UniqueId=\ODFSSOZB\EOIAKDRO|Kind=1|AlternatePart=
 Variation3=Designator=R9|UniqueId=\DFHYKTFF\LQHGEYQX|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for smart-ppe\Design Rule Check - smart-ppe.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Author
 Value=Alexander Curtiss
