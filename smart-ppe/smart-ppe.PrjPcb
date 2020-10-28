@@ -30,10 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=826F3E7E-115F-4F95-872B-27FD38FFBD4A
+ManagedProjectGUID=8B137AD0-2819-43DD-9CE2-683130577B6F
 VaultGUID=A8C5D638-4BD8-4CC8-B307-44EA0E3E8218
 ReleaseVaultName=Ka Moamoa
-ItemGUID=826F3E7E-115F-4F95-872B-27FD38FFBD4A
+ItemGUID=8B137AD0-2819-43DD-9CE2-683130577B6F
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -220,10 +220,6 @@ Variation1=Designator=BT1|UniqueId=\ODFSSOZB\MFEGZQWW|Kind=0|AlternatePart=
 Variation2=Designator=R18|UniqueId=\ODFSSOZB\EOIAKDRO|Kind=1|AlternatePart= 
 Variation3=Designator=R9|UniqueId=\DFHYKTFF\LQHGEYQX|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for smart-ppe\Design Rule Check - smart-ppe.html
-DItemRevisionGUID=
 
 [Parameter1]
 Name=Author
