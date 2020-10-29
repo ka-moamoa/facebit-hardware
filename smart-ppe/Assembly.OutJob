@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Assembly.OutJob
+Name=
 Description=
 TargetOutputMedium=Documentation
 VariantName=[No Variations]
@@ -78,13 +78,13 @@ Configuration3_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInM
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=
 Configuration3_Name4=VisibleOrder
-Configuration3_Item4=Line #=52|Comment=100|Designator=76|Description=78|Revision ID=100|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration3_Item4=Line #=52|Comment=100|Designator=76|Description=78|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137
 Configuration3_Name5=VisibleOrder_Base
 Configuration3_Item5=Line #=52|Manufacturer Part Number 1=162|Manufacturer 1=97|Fitted=100|Designator=76|Quantity=64|Supplier 1=131|Description=78|Supplier Part Number 1=137
 Configuration3_Name6=VisibleOrder_Consolidated
 Configuration3_Item6=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Quantity=100|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115|Quantity@v0.0=100|Price@v0.0=100|Quantity@v1.0=100|Price@v1.0=100
 Configuration3_Name7=VisibleOrder_Flat
-Configuration3_Item7=Line #=52|Comment=100|Designator=76|Description=78|Revision ID=100|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137|Supplier Unit Price 1=121|Supplier Subtotal 1=115
+Configuration3_Item7=Line #=52|Comment=100|Designator=76|Description=78|Manufacturer 1=97|Manufacturer Part Number 1=162|Manufacturer Lifecycle 1=141|Supplier 1=131|Supplier Part Number 1=137
 OutputType4=PDF3D
 OutputName4=PDF3D
 OutputCategory4=Documentation
