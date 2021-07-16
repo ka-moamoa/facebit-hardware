@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=HR_VCC_EN Pin=U1-44
+Removed Pin From Net: NetName=NetR18_1 Pin=U1-45
+Added Pin To Net: NetName=NetR18_1 Pin=U1-44
+Added Pin To Net: NetName=HR_VCC_EN Pin=U1-45

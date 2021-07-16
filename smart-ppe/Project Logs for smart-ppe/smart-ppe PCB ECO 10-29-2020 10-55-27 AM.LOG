@@ -1,0 +1,38 @@
+Added Component: Designator=TP1(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TP06R)
+Add component (AddParameter): Name = "Pins"; Value = "1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VSTOR Pin=TP1-1
+Added Pin To Net: NetName=VCAP Pin=TP2-1
+Added Pin To Net: NetName=NetC8_2 Pin=TP3-1
+Added Pin To Net: NetName=NetC3_2 Pin=TP4-1
+Added Pin To Net: NetName=VBAT_OK Pin=TP5-1
+Added Pin To Net: NetName=NetD1_2 Pin=TP6-1
+Added Pin To Net: NetName=NetC4_2 Pin=TP7-1
+Added Pin To Net: NetName=NetC7_2 Pin=TP8-1
+Added Pin To Net: NetName=NetTP9_1 Pin=TP9-1
+Added Pin To Net: NetName=NetTP9_1 Pin=U3-9
+Added Net: Name=NetTP9_1
+Added Member To Class: ClassName=Power Member=Component TP1 VSTOR
+Added Member To Class: ClassName=Power Member=Component TP2 VBAT
+Added Member To Class: ClassName=Power Member=Component TP3 HARVEST_IN
+Added Member To Class: ClassName=Power Member=Component TP4 VOUT
+Added Member To Class: ClassName=Power Member=Component TP5 VBAT_OK
+Added Member To Class: ClassName=Power Member=Component TP6 VSTOR
+Added Member To Class: ClassName=Power Member=Component TP7 VSTOR
+Added Member To Class: ClassName=Power Member=Component TP8 VBAT
+Added Member To Class: ClassName=Sensors Member=Component TP9 VSTOR
