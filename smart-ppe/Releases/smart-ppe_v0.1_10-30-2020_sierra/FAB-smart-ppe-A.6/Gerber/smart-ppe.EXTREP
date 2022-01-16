@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: smart-ppe.GBR   10/30/2020  4:01:33 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 GND                                     
+.G2                 Layer 3                                 
+.G3                 Layer 4                                 
+.G4                 VCC                                     
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM3                Board Outline                           
+.GM13               Mechanical 13                           
+.GM15               Top Assembly                            
+.GM16               Bottom Courtyard                        
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+------------------------------------------------------------------------------------------

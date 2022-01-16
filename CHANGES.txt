@@ -1,0 +1,11 @@
+Anyone modifying the design should provide brief information about the modifications, including the date they were made, in this file.
+
+Information about the design should be added to but never removed from this file.
+
+According to section 3.3b of the CERN OHL license, licensees should provide a brief entry with a date and the nature of the modification for each design change. 
+
+For example:
+
+2022-01-16 - Alexander Curtiss apcurtiss@gmail.com
+
+Added note to schematic regarding microphone incompatability with MCU.

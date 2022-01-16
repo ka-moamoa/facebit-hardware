@@ -1,0 +1,570 @@
+*************************************************************
+FileName = smart-ppe.GBR
+AutoAperture = True
+*************************************************************
+Generating : Keep-Out Layer
+      File : smart-ppe.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : smart-ppe.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D68
+    D87
+    D105
+    D106
+    D112
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : smart-ppe.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Layer 3
+      File : smart-ppe.G2
+
+    Adding Layer      : Layer 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D107
+    D109
+    D110
+    D113
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : smart-ppe.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : smart-ppe.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D113
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : smart-ppe.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D35
+    D39
+    D42
+    D43
+    D44
+    D50
+    D57
+    D114
+    D115
+    D116
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : smart-ppe.GM15
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D12
+    D13
+    D136
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : smart-ppe.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D12
+    D13
+    D136
+    D137
+    D138
+    D139
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : smart-ppe.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D68
+    D87
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : smart-ppe.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D16
+    D18
+    D107
+*************************************************************
+
+*************************************************************
+Generating : Layer 4
+      File : smart-ppe.G3
+
+    Adding Layer      : Layer 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D107
+    D109
+    D110
+    D113
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : smart-ppe.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D26
+    D43
+    D44
+    D51
+    D52
+    D55
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : smart-ppe.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D35
+    D39
+    D42
+    D43
+    D44
+    D50
+    D57
+    D105
+    D112
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : smart-ppe.GM3
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : smart-ppe.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D12
+    D136
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : smart-ppe.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : smart-ppe.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D31
+    D32
+    D35
+    D39
+    D42
+    D43
+    D44
+    D50
+    D57
+    D64
+    D65
+    D105
+    D107
+    D108
+    D109
+    D110
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : smart-ppe.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D44
+    D65
+    D72
+    D74
+    D75
+    D78
+    D82
+    D85
+    D92
+    D96
+    D103
+    D117
+    D118
+    D124
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+*************************************************************
+
+*************************************************************
+Generating : VCC
+      File : smart-ppe.G4
+
+    Adding Layer      : VCC
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D107
+    D108
+    D110
+    D113
+*************************************************************
+
