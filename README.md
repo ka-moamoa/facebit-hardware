@@ -1,1 +1,23 @@
 # Smart PPE Hardware
+
+The FaceBit circuit board contains all of the power harvesting, sense, and compute functionality demonstrated in the paper, plus a few extra capabilities we didn't use. This repository contains the Altium project with a [tagged release](https://github.com/ka-moamoa/facebit-hardware/releases/tag/paper-release) of the version manufactured for the paper. Note that Altium offers a [free student license](https://www.altium.com/solutions/academic-programs/student-licenses). 
+
+![Labeled Circuit Board](/.readme-images/facebit-circuitry-combined.png)
+
+## Overview
+
+FaceBit is small enough to fit comfortably in either an N95 or surgical mask (1.2" wide x 1.3" tall). It is clipped in place by 1) gluing a magnet to the underside of the board in the space provided, 2) positioning the board in the mask with the magnet facing toward the mask and 3) attaching a magnet to the other side. 
+
+The board features an NRF2832 SoC from Nordic Semiconductor, which is packaged with a chip antenna on the pre-certified BMD-350 BLE Module. With a goal of using this platform to explore a wide range of health and environmental sensing applications, this version includes six sensors, which can be seen in the images. Only three are used in the paper: the LPS22HB barometer, the LSM6DSL 6-DOF Inertial Measurement Unit (IMU), and the Si7051 temperature sensor. In future versions, we expect to reduce the number of sensors and (therefore) reduce the size and cost of the board.
+
+We adopt a flexible hybrid approach with regards to power: ![Power Architecture](/.readme-images/FaceBitPowerCircuitry.png) We include a battery holder for a small, 105 mWh primary cell, but also include the circuitry and storage to power the board using energy harvested from both DC (e.g. solar) or AC (e.g. shaker) sources. Three tantalum capacitors on the bottom of the board combine to provide 3 mF of storage capacity for harvested energy. These are charged by Texas Instruments' BQ25570 power management IC, which incorporates a boost converter with MPPT, intelligent charging circuitry, and a buck converter to reduce the voltage from the storage elements to a level tolerated by the system. The tantalum capacitors are charged to 5V (80\% of their 6.3V rating), and so are able to store a total of 10.4 \(\mu\)Wh. We use the "power good" indicator on the BQ25570 IC to implement an intelligent switch that automatically decides which source to draw power from based on the voltage of the capacitors. By default, the system draws its power from the battery (when one is present). When the storage capacitor voltage exceeds a resistor-programmed threshold (3.0V in our application), the BQ25570 begins to draw from them and the battery boost converter is disabled, which protects the battery from reverse current.  When the storage capacitors fall below 2.6V, the BQ25570 switches off it's buck converter and system power is once again drawn from the battery. An ideal diode (LM66100DCKR) prevents reverse flow into the energy harvesting circuitry while the battery boost converter is active.
+
+This power architecture allows for a relatively long battery life (the energy density of primary cells being greater than that of rechargeable cells), while still maintaining the ability to store and use harvested energy. The device can also operate in a mode where it uses only harvested energy, activated simply by not placing a battery in the connector. This flexible architecture suited the development process, but it is also possible to further simplify and miniaturize the board by using either only a rechargeable cell or only energy storage capacitors. 
+
+### Errata
+
+The tagged release includes fixes for the minor issues that required board rework after we received the boards (e.g. wrong resistor value). Still, some of the design choices, particularly those around the power architecture, limit the lowest possible sleep current of the board to around 30 uA. Version 2.0 is in the works which includes a revamped power architecture to address those issues.
+
+The battery holder on this board is barely worth your time. It is ever so slightly too small for all of the batteries we were able to find, which means that over time it inevitably pops off the board, requiring a careful resoldering to the correct height. It's helpful to put a very thin layer of solder on the ground pad to facilitate contact with the battery.
+
+Finally, as noted on the schematics the selected microphone unfortunately does not work with the NRF52. As you can see in [this issue](https://devzone.nordicsemi.com/f/nordic-q-a/24589/configuring-i2s-for-ics43434), the I2S frame width is incompatible with the nordic peripheral. 
